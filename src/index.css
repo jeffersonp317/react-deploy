@@ -59,6 +59,113 @@ body {
   font-size:1rem;
   margin-top: -70px;
 }
+.modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  width: 450px;
+  height: 230px;
+  display: flex;
+}
+.modal-header {
+  background-color: #474971;
+  height: 50px;
+}
+.close-modal {
+  text-align-last: right;
+  margin-right: 10px;
+  font-weight: 800;
+  margin-top: -22px;
+  color: #fff;
+  cursor: pointer;
+}
+.modal-title {
+  margin-top: -10px;
+  padding-top: 15px;
+  margin-left: 10px;
+  color: #fff;
+}
+h4 {
+  font-size: large;
+  font-weight: normal;
+}
+.modal-user {
+  display: inline;
+  color:yellow;
+}
+.modal-caixa-valor {
+  text-align-last: center;
+}
+.modal-valor {
+  width: 60%;
+  font-size: 1.2rem;
+  border: 1px solid grey;
+  border-radius: 4px;
+  margin-top: 20px;
+  padding: 4px;
+  text-align-last: left;
+}
+.modal-caixa-cartao {
+  text-align-last: center;
+}
+.select-cartao {
+  width: 60%;
+  font-size: 1.2rem;
+  border: 1px solid grey;
+  border-radius: 4px;
+  margin-top: 20px;
+  padding: 4px;
+  text-align-last: left;
+}
+.modal-pagar {
+  
+  font-size: 1.2rem;
+  border: 1px solid grey;
+  border-radius: 4px;
+  margin-top: 20px;
+  padding: 4px;
+  margin-left: 40%;
+  cursor: pointer;
+}
+.modal-pagar:hover {
+  background-color: #6e71ac;
+  transition: .3s;
+  border-radius: 4px;
+  border: 1px solid #fff;
+  color: #fff;
+}
+.modal-2 {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  width: 450px;
+  height: 230px;
+  display: flex;
+}
+.header-modal2 {
+  background-color: #474971;
+  height: 50px;
+}
+.recibo {
+  color: #fff;
+  padding: 15px;
+}
+.texto-status {
+  padding: 80px 60px;
+  width: 100%;
+}
+.close-modal2 {
+  text-align-last: right;
+  margin-right: 10px;
+  font-weight: 800;
+  margin-top: -38px;
+  cursor: pointer;
+  color: #fff;
+}
 @media (max-width:1300px) {
   .Clients {
     height: 80px;
@@ -66,6 +173,7 @@ body {
   .idClients {
     font-size:.8rem;
     margin-right:20%;
+    min-width: 60%;
     }
   body {
     -webkit-justify-content:none;
@@ -79,14 +187,17 @@ body {
   }
   
 }
-@media (max-width:1033px) {
+@media (max-width:900px) {
   .Clients {
     height: 80px;
   }
   .idClients {
     margin-left: 35%;
     font-size:.8rem;
-    margin-right:30%
+    margin-right:30%;
+    min-width: 60%;
+    
+    
   }
   body {
     -webkit-justify-content:none;
@@ -99,4 +210,49 @@ body {
     margin-top: -30px;
     margin-left: 270px;
   }
+  .modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    width: 320px;
+    height: 230px;
+    display: flex;
+  }
+  .modal-2 {
+    width: 320px;
+  }
+  .texto-status {
+    padding: 80px 40px;
+    width: 70%;
+    text-align: center;
+  }
 }
+@media (max-width:280px) {
+  .idClients {
+    font-size: .8rem;
+    min-width: 60%;
+    margin-left: 130px;
+  }
+  .Clients {
+    height: 90px;
+    margin-left: 10px;
+}
+.box_btn {
+  text-align: -webkit-right;
+  margin-top: -30px;
+  margin-left: 170px;
+  padding: 50px 10px;
+}
+.modal-2 {
+  width: 280px;
+}
+  
+}
+
+
+
+
+
+
