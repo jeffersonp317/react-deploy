@@ -4,7 +4,7 @@ import Modal from './component/modal';
 
 
 
-
+//-------------------------------------Classe responsável pela lista de usuários--------------------------------------
 export default class PersonList extends React.Component {
 
     state = {

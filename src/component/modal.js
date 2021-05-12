@@ -4,7 +4,7 @@ import React, { useState } from 'react'
 
 
 
-
+//--------------------------------------------Função da Modal-----------------------------------------------------
 function Modal(props) {
 
     const [valueInsert_card, setvalueInsert_card] = useState("")

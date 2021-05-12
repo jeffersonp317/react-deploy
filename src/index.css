@@ -166,6 +166,7 @@ h4 {
   cursor: pointer;
   color: #fff;
 }
+/*-----------------------------------Media care do projeto lista de usuários-----------------------------------------*/
 @media (max-width:1300px) {
   .Clients {
     height: 80px;
